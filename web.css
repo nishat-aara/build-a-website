@@ -28,7 +28,7 @@ cursor: pointer;
     color: blue;
 }
 .banner-img{
-    width: 300px;
+    width: 350px;
 }
 .banner-container{
     display: flex;
@@ -37,10 +37,17 @@ cursor: pointer;
     align-items: center;
     color: white;
     background-image: url("images/background.png"),
-    linear-gradient(45deg,#141414,#2e2e2e)
+    linear-gradient(45deg,#141414,#2e2e2e);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .titel{
     font-size: 55px;
+    font-weight: bold;
+}
+.head{
+    font-size: 30px;
     font-weight: bold;
 }
 .description{
@@ -53,5 +60,28 @@ cursor: pointer;
     background-color: red;
     color: white;
     border: none;
+    
+}
+.about-container{
+display: flex;
+justify-content: space-around;
+align-items: normal;
+flex-direction: row-reverse;
+padding: 10px;
+background-position: center;
+}
+.about-titel{
+    text-align: center;
+    padding-top: 20px;
+}
+.about-img{
+    width: 10px;
+}
+.btnn{
+    padding: 7px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 10px;
     
 }
