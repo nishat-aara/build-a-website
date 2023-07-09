@@ -56,7 +56,7 @@ cursor: pointer;
     margin-bottom: 15px;
 }
 .btn{
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: red;
     color: white;
     border: none;
@@ -73,6 +73,7 @@ background-position: center;
 .about-titel{
     text-align: center;
     padding-top: 20px;
+    color: white;
 }
 .about-img{
     width: 10px;
@@ -84,4 +85,38 @@ background-position: center;
     border: none;
     margin-top: 10px;
     
+}
+.box{
+    width: 200px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+  background-color:rgb(49, 49, 49) ; margin-bottom: 5px; 
+  
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    
+}
+.image{
+    background-image: url("images/background.png"),
+    linear-gradient(45deg,#141414,#2e2e2e);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:  40px;
+    padding-top: 10px;
+    flex-wrap: wrap;
 }
